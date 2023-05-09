@@ -40,3 +40,10 @@ const yArray = [["John", 23], ["cat", 2]];
 const removedFromMyArray = myArray.pop();
 
 console.log(removedFromMyArray);
+
+/*
+Используйте .shift()функцию, чтобы удалить первый элемент из myArrayи присвоить 
+«сдвинутое значение» новой переменной, reemovedFromMyyArray.
+*/
+const myyArray = [["John", 23], ["dog", 3]];
+const reemovedFromMyArray = myArray.shift()
