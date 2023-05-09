@@ -20,4 +20,9 @@ let myData = myAarray[0];
 
 const mYArray = [18, 64, 99];
 
-myArray[0] = 45;
+mYArray[0] = 45;
+
+// Измените данные, хранящиеся в индексе 2, Aray на значение 5.
+const array = [18, 64, 99];
+
+array[2] = 5;
