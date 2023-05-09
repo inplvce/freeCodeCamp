@@ -58,3 +58,29 @@ function timesFive(num) {
     return num * 5;
 }
 timesFive(5)
+
+/*
+С помощью letили constобъявите глобальную переменную с именем myGlobalвне какой-либо функции. 
+Инициализируйте его со значением 10.
+Внутри функции fun1назначьте 5без oopsGlobal использования ключевых слов varили .letconst
+*/
+
+function fun1() {
+
+
+}
+let oopsGlobal = 5;
+
+const myGlobal = 10;
+
+
+function fun2() {
+    let output = "";
+    if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+    }
+    if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+    }
+    console.log(output);
+}
