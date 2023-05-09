@@ -84,3 +84,17 @@ function fun2() {
     }
     console.log(output);
 }
+
+/* 
+Добавьте локальную переменную в myOutfitфункцию, чтобы переопределить 
+значение outerWearстрокой sweater.
+*/
+
+const outerWear = "T-Shirt";
+function myOutfit() {
+const outerWear = "sweater";
+return outerWear;
+}
+myOutfit();
+
+
