@@ -47,3 +47,7 @@ console.log(removedFromMyArray);
 */
 const myyArray = [["John", 23], ["dog", 3]];
 const reemovedFromMyArray = myArray.shift()
+
+//Добавьте ["Paul", 35]в начало переменной, mArray используя unshift().
+const mArray = [["John", 23], ["dog", 3]];
+myArray.unshift(["Paul", 35]);
