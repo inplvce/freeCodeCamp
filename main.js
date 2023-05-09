@@ -26,3 +26,17 @@ mYArray[0] = 45;
 const array = [18, 64, 99];
 
 array[2] = 5;
+
+// Нажмите ["dog", 3]на конец переменной array.
+
+array.push([12, "Joseph"]);
+
+/*
+Используйте .pop()функцию, чтобы удалить последний элемент yArrayи 
+присвоить выскочившее значение новой переменной, removedFromMyArray.
+*/
+
+const yArray = [["John", 23], ["cat", 2]];
+const removedFromMyArray = myArray.pop();
+
+console.log(removedFromMyArray);
