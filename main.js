@@ -228,3 +228,23 @@ function testLessOrEqual(val) {
 }
 
 testLessOrEqual(10);
+
+/*
+Замените два оператора if одним оператором, используя &&оператор, 
+который вернет строку, Yesесли valменьше или равно 50и больше или равно 25. 
+В противном случае будет возвращена строка No.
+*/
+
+function testLogicalAnd(val) {
+    // Only change code below this line
+
+if (val <= 50) {
+if (val >= 25) {
+    return "Yes";
+}
+}
+
+return "No";
+}
+
+testLogicalAnd(10);
