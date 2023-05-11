@@ -244,3 +244,19 @@ return "No";
 }
 
 testLogicalAnd(10);
+
+/*
+Объедините два ifоператора в один оператор, который возвращает строку, Outsideесли 
+valона не находится между 10и 20включительно. В противном случае вернуть строку Inside.
+*/
+
+function testLogicalOr(val) {
+
+if (val < 10 || val > 20) {
+    return "Outside";
+}
+
+    return "Inside";
+}
+
+testLogicalOr(15);
