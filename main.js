@@ -97,4 +97,9 @@ return outerWear;
 }
 myOutfit();
 
+// Измените welcomeToBooleansфункцию, чтобы она возвращала trueвместо false.
 
+function welcomeToBooleans() {
+    return true; 
+}
+welcomeToBooleans()
