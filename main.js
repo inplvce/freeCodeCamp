@@ -161,16 +161,5 @@ return "Not Equal";
 
 compareEquality(10, "10");
 
-/*
-Добавьте оператор неравенства !=в ifоператор, чтобы функция возвращала 
-строку Not Equal, когда valона не эквивалентна 99.
-*/
 
-function testNotEqual(val) {
-    if (val != 99) { // Change this line
-    return "Not Equal";
-}
-return "Equal";
-}
 
-testNotEqual(10);
