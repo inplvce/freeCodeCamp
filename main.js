@@ -103,3 +103,74 @@ function welcomeToBooleans() {
     return true; 
 }
 welcomeToBooleans()
+
+
+/*
+Создайте ifоператор внутри функции для возврата, Yes, that was trueесли параметр 
+wasThatTrueесть true, и возврата No, that was falseв противном случае.
+*/
+
+function trueOrFalse(wasThatTrue) {
+    // Only change code below this line
+if (wasThatTrue) {
+    return "Yes, that was true";
+}
+return "No, that was false";
+}
+trueOrFalse(true)
+
+/* 
+Добавьте в указанную строку оператор равенства, чтобы функция возвращала строку, 
+Equalкогда valона эквивалентна 12.
+*/
+
+function testEqual(val) {
+    if (val == 12) {
+return "Equal";
+    }
+    return "Not Equal";
+}
+
+testEqual(10);
+
+/*
+Используйте оператор строгого равенства в ifоператоре, чтобы функция возвращала 
+строку Equal, когда valона строго равна 7.
+*/
+
+function testStrict(val) {
+    if (val === 7) { // Change this line
+return "Equal";
+    }
+    return "Not Equal";
+}
+
+testStrict(10);
+
+/*
+Функция compareEqualityв редакторе сравнивает два значения с помощью оператора равенства.
+Измените функцию, чтобы она возвращала строку Equalтолько тогда, когда значения строго равны.
+  */
+
+function compareEquality(a, b) {
+    if (a === b) { // Change this line
+    return "Equal";
+}
+return "Not Equal";
+}
+
+compareEquality(10, "10");
+
+/*
+Добавьте оператор неравенства !=в ifоператор, чтобы функция возвращала 
+строку Not Equal, когда valона не эквивалентна 99.
+*/
+
+function testNotEqual(val) {
+    if (val != 99) { // Change this line
+    return "Not Equal";
+}
+return "Equal";
+}
+
+testNotEqual(10);
