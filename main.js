@@ -361,3 +361,9 @@ function testSize(num) {
     }
     }
     golfScore(5, 4);    
+
+// return
+    function timesFive(num) {
+        return num * 5
+        }
+        timesFive(5)
